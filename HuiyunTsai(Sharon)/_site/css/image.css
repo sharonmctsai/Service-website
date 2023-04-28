@@ -1,0 +1,76 @@
+/*logo top left corner*/
+.small-left-img {
+  width: 40px;
+  float: left;
+  margin: 10px;
+  border-radius:50%;
+}
+
+/*social media bottom footer*/
+.small-bottom-img {
+  width: 30px;
+  float: left;
+  margin: 20px;
+  border-radius:30%;
+}
+/*company logo homepage on the right*/
+.small-right-img {
+  width: 80px;
+  float: right;
+  padding-left: auto;
+  padding-right: auto;
+  border-radius:50%;
+}
+
+/*team crews profile pic*/
+.team-img {
+  width: 150px;
+  margin: 20px;
+  border-radius:50%;
+}
+
+/*review profile pic*/
+.review-img {
+  width: 150px;
+  margin: 10px;
+  border-radius:50%;
+}
+
+/* index backgorund image */
+.wrapper { 
+  width: 1000px; 
+  height: 600px; 
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  font-size:30px;
+} 
+
+.wrapper img { 
+  width: 100%; 
+  height: 100%; 
+} 
+
+/*click more yellow circle*/
+.wrapper a { 
+  width: 300px; 
+  height: 150px; 
+  border-radius: 50%;
+  display: block; 
+  position: absolute; 
+  top: 450px; 
+  left:  900px; 
+  text-decoration: none;
+  background-color: #F5E771;
+  font-weight: 900;
+  font-size: 30px;
+} 
+
+/*service page bottom left*/
+.findmore{
+  position: absolute; 
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 35px;
+  font-family: 'Monoton', sans-serif;
+}

@@ -1,0 +1,91 @@
+body {
+  background-color:white;
+  color: black;
+  font-family: Verdana;
+  min-height: 150vh;
+  display: flex;
+  flex-direction: column;
+}
+
+head,p,.list{
+  font-size: small;
+}
+
+p{
+ line-height: 2em;
+}
+
+h3{
+  color:gray;
+}
+
+h5{
+  font-family: 'Bungee', sans-serif;
+  color: gray;
+  text-decoration-line: underline;  
+}
+
+/*services page - 3 blocks*/
+.seekers{
+  color:#52574F;
+  border-color: white;
+  border-width: 2px;
+  background-color: white;
+  margin:10px;
+  padding:25px;
+  padding-left: 20px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+
+/*orange dotted line*/
+hr.seekline{
+  border-top: 3px dotted #FF7A59;}
+
+/* index page -- organe blockquote*/
+.quote{
+  background-color: #FF7A59;
+  display: flex;
+  color:white;
+  margin:10px;
+  padding:25px;
+  padding-left: 10px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  width:1000px;
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 40px;
+}
+
+/* home page -- yellow reviews*/
+.case{
+  text-align: center;
+  color:#52574F;
+  border-color: #FFFCC4;
+  border-width: 2px;
+  border-style: dashed;
+  background-color: #FFEE98;
+  margin:10px;
+  padding:25px;
+  padding-left: 20px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  border-radius: 50%;
+}
+
+/*review page*/
+p.reviews{font-family: 'Nanum pen script', sans-serif;
+  font-size: 20px;
+}
+
+/*home,service,meet, review,contact us...etc*/
+.headline{
+  font-size: 40px;
+  color: black;  
+  padding-left: 45%;
+}
+
+/* footer copyright */
+.copy{
+  color:white;
+}

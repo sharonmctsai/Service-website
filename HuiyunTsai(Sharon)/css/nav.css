@@ -1,0 +1,79 @@
+/* main JobEasy */
+h1#menu a{
+  text-decoration: none;
+  color:#19009B;
+  float:left;
+  font-family: monospace;
+  font-size:80px;
+}   
+
+h1#menu a:hover{
+  background-color: white;
+}   
+
+/* top tab */
+.topnav {
+  overflow: hidden;
+  background-color: #33475B;
+  font-family: 'Allerta Stencil', sans-serif;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* bottom tab */
+.botnav a.active {
+  background-color: #ddd; /*very light shade of gray.*/
+  color: white;
+}
+
+.botnav {
+  overflow: hidden;
+  background-color: #33475B;
+}
+
+.botnav a {         
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.botnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/*all the link*/
+a:link, a:visited {
+  
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: #c9002b;
+}
+
+/*contact page link*/
+.meet a,.mail a, .add a{
+  color: black;
+  font-size: 15px;
+}
+
